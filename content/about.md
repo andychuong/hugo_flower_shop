@@ -1,8 +1,8 @@
 ---
-title: "About Us"
-date: 2024-01-15
-draft: false
+date: '2024-01-15'
+title: About Us
 ---
+
 
 # About Blooming Flowers
 
@@ -27,7 +27,7 @@ Our experienced team of florists brings creativity and passion to every arrangem
 
 We'd love to meet you! Stop by our shop at:
 
-**123 Main Street, Flower City, FC 12345**
+**123 Main Street, Flower City, FC 54321*
 
 **Hours:**
 - Monday - Saturday: 9:00 AM - 6:00 PM
