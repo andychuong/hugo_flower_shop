@@ -1,0 +1,24 @@
+[[products]]
+name = "Classic Rose Bouquet"
+price = "$45.00"
+category = "bouquets"
+featured = true
+
+[[products]]
+name = "Mixed Spring Bouquet"
+price = "$35.00"
+category = "bouquets"
+featured = true
+
+[[products]]
+name = "Bridal Bouquet"
+price = "$85.00"
+category = "wedding"
+featured = true
+
+[[products]]
+name = "Sympathy Arrangement"
+price = "$55.00"
+category = "arrangements"
+featured = false
+

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Flower Blog on Blooming Flowers</title>
+    <link>http://localhost:1313/blog/</link>
+    <description>Recent content in Flower Blog on Blooming Flowers</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spring Flowers Arriving This Week</title>
+      <link>http://localhost:1313/blog/spring-flowers-2024/</link>
+      <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/spring-flowers-2024/</guid>
+      <description>&lt;h1 id=&#34;spring-flowers-arriving-this-week&#34;&gt;Spring Flowers Arriving This Week&lt;/h1&gt;&#xA;&lt;p&gt;Spring is in the air, and we&amp;rsquo;re excited to announce the arrival of fresh spring flowers!&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-new&#34;&gt;What&amp;rsquo;s New&lt;/h2&gt;&#xA;&lt;p&gt;This week we&amp;rsquo;re featuring:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tulips&lt;/strong&gt; - Available in a rainbow of colors&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Daffodils&lt;/strong&gt; - Bright yellow and white varieties&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Hyacinths&lt;/strong&gt; - Fragrant purple, pink, and white&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Peonies&lt;/strong&gt; - Early season peonies in soft pastels&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;spring-arrangements&#34;&gt;Spring Arrangements&lt;/h2&gt;&#xA;&lt;p&gt;Our florists have created several new spring-themed arrangements perfect for Easter, Mother&amp;rsquo;s Day, or just to brighten your home.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to Care for Your Roses</title>
+      <link>http://localhost:1313/blog/how-to-care-for-roses/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/how-to-care-for-roses/</guid>
+      <description>&lt;h1 id=&#34;how-to-care-for-your-roses&#34;&gt;How to Care for Your Roses&lt;/h1&gt;&#xA;&lt;p&gt;Roses are one of the most beloved flowers, and with proper care, they can last for over a week. Here are our top tips for keeping your roses fresh and beautiful.&lt;/p&gt;&#xA;&lt;h2 id=&#34;water-is-key&#34;&gt;Water is Key&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Change the water every 2-3 days&lt;/li&gt;&#xA;&lt;li&gt;Use lukewarm water&lt;/li&gt;&#xA;&lt;li&gt;Add flower food if provided&lt;/li&gt;&#xA;&lt;li&gt;Trim stems at an angle every few days&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;location-matters&#34;&gt;Location Matters&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Keep roses away from direct sunlight&lt;/li&gt;&#xA;&lt;li&gt;Avoid placing near heat sources&lt;/li&gt;&#xA;&lt;li&gt;Keep away from fruit (ethylene gas can shorten their life)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;temperature&#34;&gt;Temperature&lt;/h2&gt;&#xA;&lt;p&gt;Roses prefer cooler temperatures. Keep them in a room that&amp;rsquo;s between 65-72°F (18-22°C).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

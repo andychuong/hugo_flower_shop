@@ -1,0 +1,47 @@
+baseURL = 'https://blooming-flowers.example.com/'
+languageCode = 'en-us'
+title = 'Blooming Flowers'
+
+[params]
+  description = 'Your local flower shop offering fresh flowers, bouquets, and arrangements for every occasion'
+  subtitle = 'Fresh Flowers for Every Occasion'
+  phone = '+1 (555) 123-4567'
+  email = 'info@bloomingflowers.com'
+  address = '123 Main Street, Flower City, FC 12345'
+  hours = 'Mon-Sat: 9am-6pm, Sun: 10am-4pm'
+  
+  [params.social]
+    facebook = 'https://facebook.com/bloomingflowers'
+    instagram = 'https://instagram.com/bloomingflowers'
+    twitter = 'https://twitter.com/bloomingflowers'
+
+[menu]
+  [[menu.main]]
+    identifier = 'home'
+    name = 'Home'
+    url = '/'
+    weight = 1
+  [[menu.main]]
+    identifier = 'products'
+    name = 'Products'
+    url = '/products/'
+    weight = 2
+  [[menu.main]]
+    identifier = 'about'
+    name = 'About'
+    url = '/about/'
+    weight = 3
+  [[menu.main]]
+    identifier = 'blog'
+    name = 'Blog'
+    url = '/blog/'
+    weight = 4
+  [[menu.main]]
+    identifier = 'contact'
+    name = 'Contact'
+    url = '/contact/'
+    weight = 5
+
+[markup.goldmark.renderer]
+  unsafe = true
+

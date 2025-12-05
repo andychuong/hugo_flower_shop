@@ -1,0 +1,33 @@
+{{ define "main" }}
+<div class="list-page">
+    <div class="container">
+        <header class="page-header">
+            <h1>{{ .Title }}</h1>
+        </header>
+
+        <div class="content-grid">
+            {{ range .Pages }}
+            <div class="card">
+                {{ if .Params.image }}
+                <div class="card-image">
+                    <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
+                </div>
+                {{ end }}
+                <div class="card-content">
+                    <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+                    {{ if .Date }}
+                    <time class="card-date">{{ .Date.Format "January 2, 2006" }}</time>
+                    {{ end }}
+                    {{ if .Params.price }}
+                    <p class="card-price">{{ .Params.price }}</p>
+                    {{ end }}
+                    <p class="card-excerpt">{{ .Summary }}</p>
+                    <a href="{{ .RelPermalink }}" class="card-link">Read more →</a>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{ end }}
+

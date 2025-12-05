@@ -1,0 +1,29 @@
+{{ define "main" }}
+<article class="single-page">
+    <div class="container">
+        <header class="page-header">
+            <h1>{{ .Title }}</h1>
+            {{ if .Date }}
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+            {{ end }}
+        </header>
+
+        {{ if .Params.image }}
+        <div class="featured-image">
+            <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
+        </div>
+        {{ end }}
+
+        <div class="content">
+            {{ .Content }}
+        </div>
+
+        {{ if .Params.price }}
+        <div class="product-price">
+            <strong>Price: {{ .Params.price }}</strong>
+        </div>
+        {{ end }}
+    </div>
+</article>
+{{ end }}
+

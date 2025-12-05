@@ -1,0 +1,48 @@
+{{ define "main" }}
+<div class="home-page">
+    <section class="hero">
+        <div class="container">
+            <h1>{{ .Site.Params.subtitle }}</h1>
+            <p class="hero-subtitle">{{ .Site.Params.description }}</p>
+            <a href="{{ "/products/" | relURL }}" class="btn btn-primary">Shop Now</a>
+        </div>
+    </section>
+
+    <section class="featured-products">
+        <div class="container">
+            <h2>Featured Products</h2>
+            <div class="content-grid">
+                {{ range where .Site.RegularPages "Section" "products" }}
+                {{ if .Params.featured }}
+                <div class="card">
+                    {{ if .Params.image }}
+                    <div class="card-image">
+                        <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
+                    </div>
+                    {{ end }}
+                    <div class="card-content">
+                        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                        {{ if .Params.price }}
+                        <p class="card-price">{{ .Params.price }}</p>
+                        {{ end }}
+                        <p class="card-excerpt">{{ .Summary }}</p>
+                        <a href="{{ .RelPermalink }}" class="card-link">View Details →</a>
+                    </div>
+                </div>
+                {{ end }}
+                {{ end }}
+            </div>
+        </div>
+    </section>
+
+    <section class="welcome-section">
+        <div class="container">
+            <div class="welcome-content">
+                <h2>Welcome to {{ .Site.Title }}</h2>
+                {{ .Content }}
+            </div>
+        </div>
+    </section>
+</div>
+{{ end }}
+
