@@ -1,8 +1,8 @@
 ---
-title: "Welcome to Blooming Flowers"
-date: 2024-01-15
-draft: false
+date: '2024-01-15'
+title: Welcome to Blooming Flowers
 ---
+
 
 # Welcome to Blooming Flowers
 
@@ -20,5 +20,5 @@ Browse our collection of handcrafted bouquets and arrangements, each made with f
 - **Same-Day Delivery**: Available in most areas
 - **Satisfaction Guaranteed**: We stand behind every arrangement
 
-Visit us today or order online for delivery!
+Visit us today or order online for delivery!!
 
